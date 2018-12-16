@@ -1,0 +1,6 @@
+{
+    "connectionString": "Driver={SQL Server Native Client 11.0};Server={COMON-PC};Database={test};Trusted_Connection={yes};",
+    "query": "SELECT [timestamp],[value] FROM [data] WHERE [timestamp] < @timestamp;",
+    "csvName": "testexe11",
+    "csvExportDir": "."
+}

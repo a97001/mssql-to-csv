@@ -1,0 +1,43 @@
+{
+  "name": "mssql-to-csv",
+  "version": "1.0.0",
+  "description": "mssql time series data to csv",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . -t node10 --out-path build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a97001/mssql-to-csv.git"
+  },
+  "author": "Kelvin Au",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a97001/mssql-to-csv/issues"
+  },
+  "bin": "./index.js",
+  "pkg": {
+    "assets": [
+      "node_modules/**/*",
+      "config.json"
+    ]
+  },
+  "homepage": "https://github.com/a97001/mssql-to-csv#readme",
+  "dependencies": {
+    "fast-csv": "2.4.1",
+    "msnodesqlv8": "0.6.11",
+    "mssql": "4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.7.0",
+    "pkg": "4.3.5"
+  }
+}
