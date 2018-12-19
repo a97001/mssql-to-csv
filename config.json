@@ -1,6 +1,12 @@
 {
-    "connectionString": "Driver={SQL Server Native Client 11.0};Server={COMON-PC};Database={test};Trusted_Connection={yes};",
+    "connection": {
+        "server": "localhost",
+        "database": "test",
+        "user": "test",
+        "password": "test"
+    },
     "query": "SELECT [timestamp],[value] FROM [data] WHERE [timestamp] < @timestamp;",
+    "sqlResultProcessor": "pivotForm",
     "csvName": "testexe11",
     "csvExportDir": "."
 }
