@@ -2,5 +2,4 @@
 
 ## Trouble shooting
 
-- Sql Server Configuration Manager --> SQL Server Network Configuration --> Protocols for MSSQLSERVER
-TCP/IP Must be Enable
+- Sql Server Configuration Manager --> SQL Server Network Configuration --> Protocols for MSSQLSERVER --> TCP/IP Must be Enable
